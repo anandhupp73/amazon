@@ -131,7 +131,7 @@ body{
 }
 .bg img{
    position: absolute;
-   width: 1500px;
+   width: 1600px;
    top: 0;
    /* left: 0; */
    z-index: 0;
@@ -140,17 +140,22 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
-    margin-top: 20%;
-    z-index: 1;
+    /* margin-top: 20%; */
+    /* z-index: 1; */
+    padding-left:160px;
+    padding-right: 160px;
+    bottom: 50px;
+    position: relative;
+
 }
 .bigcard{
     background: white;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     padding: 15px;
 }
 .bigcard h2{
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 12px;
 } 
 .smallgrid{
@@ -159,16 +164,79 @@ body{
     gap: 10px;
 }
 .smallcard{
-    border-radius: 6px;
+    /* border-radius: 6px; */
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     font-size: 13px;
     color: #444;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
 }
 .smallcard img{
     width: 100%;
     height: 100px;
     object-fit: cover;
     display: block;
+}
+.smallcard p{
+    margin: 6px;
+
+}
+.explore{
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cardsrow2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    /* margin-top: 20%; */
+    /* z-index: 1; */
+    padding-left:160px;
+    padding-right: 160px;
+    bottom: 50px;
+    /* position: relative; */
+
+}
+.bigcard2{
+    background: white;
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 15px;
+}
+.bigcard2 h2{
+    font-size: 20px;
+    margin-bottom: 12px;
+} 
+.smallgrid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.smallcard2{
+    /* border-radius: 6px; */
+    overflow: hidden;
+    text-align: left;
+    font-size: 13px;
+    color: #444;
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
+}
+.smallcard2 img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
+.smallcard2 p{
+    margin: 6px;
+
+}
+.explore2{
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
 }
